@@ -1,0 +1,16 @@
+
+
+
+
+
+Algoritimo - Acordando pela manhã
+
+1. abrir os olhos;
+2. se espreguiçar deitado;
+3. se o despertador estiver ligado
+    1. desligar despertador;
+4. se o despertador estiver desligado
+    1. seguir passo 5;
+5. sentar na cama;
+6. calçar o chinelo;
+7. levantar da cama;

@@ -1,0 +1,18 @@
+
+
+
+
+Programação orientada a objetos
+
+é uma forma de programação que nos ajuda a organizar melhor nosso código,
+agrupando informações e ações relacionadas em objetos. É útil para projetos
+maiores e mais complexos.
+
+
+Programação procedural
+é uma forma mais simples e direta de escrever código, estruturando o programa
+como uma sequência de instruções que manipulam dados. É útil para projetos
+menores e mais simples.
+
+
+
