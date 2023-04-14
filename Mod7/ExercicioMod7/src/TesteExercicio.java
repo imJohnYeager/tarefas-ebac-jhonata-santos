@@ -1,4 +1,4 @@
-public class PrimeiraClasse {
+public class TesteExercicio {
 
     public static void main(String args[]) {
         Cliente cliente = new Cliente();
