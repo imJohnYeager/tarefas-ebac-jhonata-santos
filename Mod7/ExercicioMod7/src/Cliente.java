@@ -5,6 +5,7 @@ public class Cliente {
 
     private String endereco;
 
+    //Get and Setters
     public int getCodigo() {
         return codigo;
     }
