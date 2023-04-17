@@ -1,5 +1,6 @@
 public class Cliente {
 
+    // Variáveis
     private int codigo;
     private String nome;
 
