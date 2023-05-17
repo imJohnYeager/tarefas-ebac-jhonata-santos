@@ -1,6 +1,6 @@
 package br.js.com;
 
-public class Aula2 {
+public class ExemploFor {
 
     public static void main (String args[]) {
 

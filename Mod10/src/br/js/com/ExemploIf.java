@@ -1,6 +1,6 @@
 package br.js.com;
 
-public class Exemplo1 {
+public class ExemploIf {
     public static void main(String args[]) {
 
         int result = 23;
