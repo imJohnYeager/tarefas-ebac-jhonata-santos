@@ -12,9 +12,9 @@ public class ListaAlunos {
     }
 
     public static void alunos1() {
-        String aluno1 = "Bernardo da Silva";
-        String aluno2 = "Olivia Oliveira";
-        String aluno3 = "Rita Lee";
+        String aluno1 = "Dionísio da Silva";
+        String aluno2 = "Júlio Oliveira";
+        String aluno3 = "Bianca Lee";
         String aluno4 = "Bernadete Santana";
         String aluno5 = "Paulo Pedroso";
         List<String> alunos = new ArrayList<>();
@@ -38,9 +38,10 @@ public class ListaAlunos {
 
         Collections.sort(alunos, (a1, a2) -> {
             String nomeAluno1 = a1.split("-")[1].trim();
-            String sexoAluno2 = a2.split("-")[1].trim();
-            return nomeAluno1.compareTo(sexoAluno2);
+            String nomeAluno2 = a2.split("-")[1].trim();
+            return nomeAluno1.compareTo(nomeAluno2);
         });
+        Collections.sort(alunos);
 
         System.out.println("\n||| ALUNOS 2 |||");
         System.out.println(alunos);
