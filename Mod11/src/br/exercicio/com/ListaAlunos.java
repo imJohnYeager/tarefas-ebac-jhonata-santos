@@ -3,7 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 
+// Criando a classe principal
 public class ListaAlunos {
+    // Necessário para rodar o script
     public static void main(String[] args) {
         alunos1();
         alunos2();
@@ -11,23 +13,25 @@ public class ListaAlunos {
 
     }
 
+    // Subclasse
     public static void alunos1() {
         String aluno1 = "Dionísio da Silva";
         String aluno2 = "Júlio Oliveira";
         String aluno3 = "Bianca Lee";
         String aluno4 = "Bernadete Santana";
         String aluno5 = "Paulo Pedroso";
-        List<String> alunos = new ArrayList<>();
-        alunos.add(aluno1);
+        List<String> alunos = new ArrayList<>();            // Instanciando uma lista
+        alunos.add(aluno1);         // Adicionando uma informação na lista
         alunos.add(aluno2);
         alunos.add(aluno3);
         alunos.add(aluno4);
         alunos.add(aluno5);
-        Collections.sort(alunos);
+        Collections.sort(alunos);           // Ordena uma lista em ordem crescente
         System.out.println("\n||| ALUNOS 1 |||");
         System.out.println(alunos);
     }
 
+    // Outra subclasse
     public static void alunos2() {
         List<String> alunos = new ArrayList<>();
         alunos.add("Bernardo da Silva - M");
