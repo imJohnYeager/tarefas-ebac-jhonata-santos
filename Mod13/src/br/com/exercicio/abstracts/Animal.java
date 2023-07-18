@@ -5,7 +5,6 @@ private String nome;
 private Integer idade;
 private String Dono;
 private String vacina;
-
 private String raça;
 
     public String getNome() {
