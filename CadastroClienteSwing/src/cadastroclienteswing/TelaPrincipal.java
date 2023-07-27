@@ -11,10 +11,8 @@ import javaapplication1.domain.Cliente;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author rodrigo.pires
- */
+
+
 public class TelaPrincipal extends javax.swing.JFrame {
     
     private DefaultTableModel modelo = new DefaultTableModel();

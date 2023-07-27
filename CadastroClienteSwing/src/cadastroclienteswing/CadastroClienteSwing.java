@@ -5,10 +5,6 @@
  */
 package cadastroclienteswing;
 
-/**
- *
- * @author rodrigo.pires
- */
 public class CadastroClienteSwing {
 
     /**
