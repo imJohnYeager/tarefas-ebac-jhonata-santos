@@ -23,7 +23,7 @@ public class Main {
     System.out.println("Latido: " + ccr.getLatido());
 
     }
-    public static void print(Animal classe){
+    public static void print(Animal classe){        // "Animal" é o nome da abstract class, "classe" é o denominador.
         System.out.println("\nPropriedade de " + classe.getDono() + ";\nNome do animal: " + classe.getNome() +
                 ";\nPossui " + classe.getIdade() + " meses;\nRaça: " + classe.getRaça() + ";\nVacina:" +
                 classe.getVacina() + ";");
