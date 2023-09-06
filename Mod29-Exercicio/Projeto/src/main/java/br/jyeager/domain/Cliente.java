@@ -4,6 +4,7 @@ public class Cliente {
     private long id;
     private String codigo;
     private String nome;
+    private Long cpf;
 
     public long getId() {
         return id;
@@ -28,4 +29,13 @@ public class Cliente {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public Long getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(Long cpf) {
+        this.cpf = cpf;
+    }
+
 }

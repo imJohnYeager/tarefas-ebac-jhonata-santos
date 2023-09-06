@@ -7,7 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mod25-exercicio" />
+        <module name="Mod30-exercicio2" />
+        <module name="Projeto" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Mod23-Exercicio" target="17" />
+      <module name="Mod23-Exercicio.main" target="17" />
+      <module name="Mod23-Exercicio.test" target="17" />
+      <module name="Mod23e24-Tarefa" target="17" />
+      <module name="Mod23e24-Tarefa.main" target="17" />
+      <module name="Mod23e24-Tarefa.test" target="17" />
+      <module name="Projeto (1)" target="17" />
+      <module name="Projeto (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

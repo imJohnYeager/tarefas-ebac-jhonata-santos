@@ -16,6 +16,7 @@ public class ClienteTest {
         Cliente cliente = new Cliente();
         cliente.setCodigo("01");
         cliente.setNome("Jhonata Santos");
+        cliente.setCpf(12345678911L);
 
         Integer qtd = dao.cadastrar(cliente);
         assertTrue(qtd == 1);
@@ -25,6 +26,7 @@ public class ClienteTest {
         assertNotNull(clienteBD.getId());
         assertEquals(cliente.getCodigo(), clienteBD.getCodigo());
         assertEquals(cliente.getNome(), clienteBD.getNome());
+        assertEquals(cliente.getCpf(), clienteBD.getCpf());
 
         Integer qtdDel = dao.excluir(clienteBD);
         assertNotNull(qtdDel);
@@ -37,6 +39,7 @@ public class ClienteTest {
         Produto produto = new Produto();
         produto.setCodigo("01");
         produto.setNome("Notebook");
+        produto.setCategoria("Eletronico");
         print("*** Cadastrando no banco de dados ***");
         Integer quantidade = produtoDAO.cadastrar(produto);
         assertTrue(quantidade == 1);
@@ -47,6 +50,8 @@ public class ClienteTest {
         assertNotNull(produtoDB.getId());
         assertNotNull(produto.getCodigo(), produtoDB.getCodigo());
         assertEquals(produto.getNome(), produtoDB.getNome());
+        assertNotNull(produto.getCategoria(), produtoDB.getCategoria());
+
         print("Consultado com sucesso!");
 
         print("*** Deletando no banco de dados ***");

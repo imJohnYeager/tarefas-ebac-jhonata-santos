@@ -17,10 +17,11 @@ public class ProdutoDAO implements IProdutoDAO {
 
         try{
             connection = ConnectionFactory.getConnection();
-            String sql = "insert into tb_produto(codigo, nome) values(?, ?);";
+            String sql = "insert into tb_produto(codigo, nome, categoria) values(?, ?, ?);";
             stm = connection.prepareStatement(sql);
             stm.setString(1, produto.getCodigo());
             stm.setString(2, produto.getNome());
+            stm.setString(3, produto.getCategoria());
             return stm.executeUpdate();
         } catch (Exception e){
             throw e;
@@ -51,6 +52,7 @@ public class ProdutoDAO implements IProdutoDAO {
                 produto.setId(rs.getLong("id"));
                 produto.setCodigo(rs.getString("codigo"));
                 produto.setNome(rs.getString("nome"));
+                produto.setCategoria(rs.getString("categoria"));
             }
         } catch (Exception e){
             throw e;

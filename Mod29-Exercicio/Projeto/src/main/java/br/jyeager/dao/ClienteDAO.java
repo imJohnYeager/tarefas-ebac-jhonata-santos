@@ -7,6 +7,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Random;
 
 public class ClienteDAO implements IClienteDAO{
 
@@ -15,12 +16,14 @@ public class ClienteDAO implements IClienteDAO{
         Connection connection = null;
         PreparedStatement stm = null;
 
+
         try{
             connection = ConnectionFactory.getConnection();
-            String sql = "INSERT INTO tb_cliente (id, codigo, nome) VALUES (1, ?, ?);";
+            String sql = "INSERT INTO tb_cliente (codigo, nome, cpf) VALUES (?, ?, ?);";
             stm = connection.prepareStatement(sql);
             stm.setString(1, cliente.getCodigo());
             stm.setString(2, cliente.getNome());
+            stm.setLong(3, cliente.getCpf());
             return stm.executeUpdate();
         } catch (Exception e){
             throw e;
@@ -51,6 +54,7 @@ public class ClienteDAO implements IClienteDAO{
                 cliente.setId(rs.getLong("id"));
                 cliente.setCodigo(rs.getString("codigo"));
                 cliente.setNome(rs.getString("nome"));
+                cliente.setCpf(rs.getLong("cpf"));
             }
         } catch (Exception e){
             throw e;
