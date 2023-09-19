@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mod25-exercicio" />
+        <module name="Mod37-ProjetoMaven" />
         <module name="Projeto" />
         <module name="Mod33-exercicio" />
         <module name="Mod32e33-Projeto" />
