@@ -8,9 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Mod25-exercicio" />
         <module name="Mod37-ProjetoMaven" />
+        <module name="BunnyBot" />
+        <module name="atividade" />
+        <module name="Mod32e33-Projeto" />
+        <module name="Mod38-VendasOnline" />
         <module name="Projeto" />
         <module name="Mod33-exercicio" />
-        <module name="Mod32e33-Projeto" />
         <module name="Mod30-exercicio2" />
       </profile>
     </annotationProcessing>
@@ -25,5 +28,10 @@
       <module name="Projeto (1)" target="17" />
       <module name="Projeto (2)" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="atividade" options="-parameters" />
+    </option>
   </component>
 </project>
