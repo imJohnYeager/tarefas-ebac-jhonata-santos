@@ -16,7 +16,13 @@
         <option value="$PROJECT_DIR$/Mod37-BunnyBot/pom.xml" />
         <option value="$PROJECT_DIR$/Mod38-VendasOnline/pom.xml" />
         <option value="$PROJECT_DIR$/Mod39/atividade/pom.xml" />
+        <option value="$PROJECT_DIR$/mod38-alternativo/VendasOnline/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Mod38-VendasOnline/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
