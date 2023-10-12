@@ -12,6 +12,8 @@
         <module name="BunnyBot" />
         <module name="atividade" />
         <module name="Mod32e33-Projeto" />
+        <module name="VendaServiceAlunos" />
+        <module name="VendaService" />
         <module name="VendasOnline" />
         <module name="Projeto" />
         <module name="Mod33-exercicio" />
@@ -33,6 +35,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="VendaService" options="-parameters" />
+      <module name="VendaServiceAlunos" options="-parameters" />
       <module name="atividade" options="-parameters" />
     </option>
   </component>

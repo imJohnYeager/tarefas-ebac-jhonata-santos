@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.jyeager.domain;
 
 import jakarta.persistence.*;
