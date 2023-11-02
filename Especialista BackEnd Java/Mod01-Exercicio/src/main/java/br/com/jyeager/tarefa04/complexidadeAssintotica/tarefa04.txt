@@ -1,0 +1,50 @@
+Pilha:
+    Método push: O(1)
+        Esse método serve para adicionar um novo número na sua pilha.
+        É como colocar um prato novo em cima dos pratos que já estão empilhados.
+        A parte legal é que isso é rápido e não importa quantos pratos você já tem
+        na pilha, vai demorar o mesmo tempo.
+
+    Método pop: O(1)
+        Agora, o pop faz o oposto do push. Ele tira o prato do topo da pilha.
+        Isso também é rápido e não depende de quantos pratos você tem, vai ser rápido sempre.
+
+
+Fila:
+    Método enqueue: O(1)
+        Adicionar um item ao final da fila é uma operação de tempo constante,
+        independentemente do tamanho da fila.
+
+    Método dequeue: O(1)
+        Remover o item da frente da fila também é uma operação de tempo constante,
+        não depende do tamanho da fila.
+
+    Método rear: O(1)
+        Olhar para o último item da fila é uma operação de tempo constante, não importa
+        quantos itens na fila.
+
+    Método front: O(1)
+        Olhar para o item da frente da fila também é uma operação de tempo constante,
+        não depende do tamanho da fila.
+
+
+Lista Encadeada:
+    Método push: O(1)
+        Adicionar um novo elemento no início da lista é uma operação de tempo constante, não
+        depende do tamanho da lista.
+
+    Método pop: O(1)
+        Remover o elemento do início da lista é uma operação de tempo constante, não importa
+        quantos elementos na lista.
+
+    Método insert: O(n)
+        Inserir um elemento em uma posição específica pode levar tempo linear, dependendo da
+        posição onde você deseja inserir.
+
+    Método remove: O(n)
+        Remover um elemento de uma posição específica também pode levar tempo linear, dependendo
+        da posição.
+
+    Método elementAt: O(n)
+        Acessar um elemento em uma posição específica leva tempo linear, pois você pode precisar
+        percorrer a lista para encontrar o elemento desejado.
