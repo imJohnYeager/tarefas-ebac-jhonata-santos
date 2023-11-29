@@ -1,0 +1,2 @@
+A programação dinâmica é geralmente mais eficiente do que a recursão pura
+porque evita recalcular as mesmas coisas várias vezes.

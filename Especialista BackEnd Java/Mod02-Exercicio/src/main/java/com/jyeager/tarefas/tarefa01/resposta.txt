@@ -1,0 +1,3 @@
+Eu consegui calcular o fatorial de um numero acima de 100 com uma solucao recursiva,
+porém eu tive que alterar o tipo para 'double'e o resultado fica com a letra 'E'
+atrás do ultimo numero.
