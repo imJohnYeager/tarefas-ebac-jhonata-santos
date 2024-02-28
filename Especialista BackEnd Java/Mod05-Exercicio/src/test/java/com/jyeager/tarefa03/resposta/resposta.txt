@@ -1,0 +1,10 @@
+Você conseguiria entender o código que escreveu sem documentá-lo?
+Resposta:
+        Sim, afinal foram métodos fáceis e simples de compreender.
+        Espero que todos os meus códigos continuem dessa forma: Clean.
+
+Será que foi mesmo necessário documentar o código?
+Resposta:
+        Não, não foi necessário documentar o código, porém serviu para compreender na prática
+        o quão satisfatório é desenvolver um código e perceber que ele é tão clean ao ponto
+        de não precisar de documentação.

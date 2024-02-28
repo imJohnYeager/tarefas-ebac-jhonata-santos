@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa0e6ff-455f-483f-8031-873ac707af40" name="Changes" comment="" />
+    <list default="true" id="afa0e6ff-455f-483f-8031-873ac707af40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mod05-Exercicio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mod05-Exercicio/src/main/java/com/jyeager/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mod05-Exercicio/src/test/java/com/jyeager/tarefa01/calculadora/OperacoesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,37 +43,96 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DarTroco">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyeager.tarefas.tarefa01.App" />
-      <module name="Mod03-Exercicio" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jyeager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FibonacciTest.testFibonacciCinco">
+    <configuration name="FibonacciTest.testFibonacciCinco" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mod05-Exercicio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyeager.tarefas.tarefa01.*" />
+          <option name="PATTERN" value="com.jyeager.tarefa02.fibonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.jyeager.tarefa02.fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="com.jyeager.tarefa02.fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="testFibonacciCinco" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DarTroco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyeager.tarefas.tarefa02.DarTroco" />
-      <module name="Mod03-Exercicio" />
+    <configuration name="FibonacciTest.testFibonacciUm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mod05-Exercicio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyeager.tarefas.tarefa02.*" />
+          <option name="PATTERN" value="com.jyeager.tarefa02.fibonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.jyeager.tarefa02.fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="com.jyeager.tarefa02.fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="testFibonacciUm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest.testFibonacciZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mod05-Exercicio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyeager.tarefa02.fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jyeager.tarefa02.fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="com.jyeager.tarefa02.fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="testFibonacciZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacoesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mod05-Exercicio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyeager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jyeager.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.jyeager.calculadora.OperacoesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jyeager.tarefa02.fibonacci in Mod05-Exercicio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mod05-Exercicio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyeager.tarefa02.fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jyeager.tarefa02.fibonacci" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DarTroco" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.FibonacciTest.testFibonacciCinco" />
+        <item itemvalue="JUnit.FibonacciTest.testFibonacciUm" />
+        <item itemvalue="JUnit.FibonacciTest.testFibonacciZero" />
+        <item itemvalue="JUnit.com.jyeager.tarefa02.fibonacci in Mod05-Exercicio" />
+        <item itemvalue="JUnit.OperacoesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -79,5 +146,13 @@
       <updated>1698683403614</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Especialista_BackEnd_Java$OperacoesTest_testDivisao.ic" NAME="OperacoesTest.testDivisao Coverage Results" MODIFIED="1707199903087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jyeager.calculadora.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Especialista_BackEnd_Java$OperacoesTest.ic" NAME="OperacoesTest Coverage Results" MODIFIED="1707200056720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jyeager.calculadora.*</FILTER>
+    </SUITE>
   </component>
 </project>
