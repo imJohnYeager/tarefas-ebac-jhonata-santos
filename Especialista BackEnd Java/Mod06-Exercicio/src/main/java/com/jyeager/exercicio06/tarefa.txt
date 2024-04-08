@@ -1,0 +1,43 @@
+Monólitos:
+
+1. Escalabilidade:
+   - Vantagem: Monólitos são mais fáceis de escalar porque você só precisa aumentar a capacidade de um único aplicativo. É como adicionar mais potência ao motor de um carro.
+   - Desvantagem: À medida que o aplicativo cresce, fica mais difícil escalar horizontalmente. Isso é como tentar fazer um carro muito grande correr tão rápido quanto um pequeno.
+
+2. Disponibilidade:
+   - Vantagem: É mais fácil manter um monólito funcionando porque tudo está junto. Se algo der errado, você sabe onde procurar e consertar.
+   - Desvantagem: Se uma parte do monólito falhar, pode derrubar todo o aplicativo. É como se um pneu furado parasse o carro inteiro.
+
+3. Consistência:
+   - Vantagem: É mais fácil garantir que tudo funcione da mesma maneira dentro de um monólito. É como ter todas as peças de um quebra-cabeça em uma única caixa.
+   - Desvantagem: Mudanças em uma parte do monólito podem bagunçar outras partes. É como tentar trocar uma peça de um quebra-cabeça sem bagunçar o resto.
+
+4. Performance:
+   - Vantagem: Chamadas entre partes de um monólito são mais rápidas porque estão todas no mesmo lugar. É como conversar com alguém ao seu lado em vez de ligar para eles.
+   - Desvantagem: À medida que o aplicativo cresce, pode ficar mais lento. É como se o carro ficasse mais pesado à medida que você adiciona mais bagagem.
+
+5. Testabilidade:
+   - Vantagem: É mais fácil testar um monólito porque tudo está junto. É como fazer um teste em uma única sala em vez de em várias.
+   - Desvantagem: À medida que o aplicativo cresce, os testes podem se tornar mais complicados. É como tentar encontrar um erro em uma sala cheia de coisas em vez de em uma mesa arrumada.
+
+Microsserviços:
+
+1. Escalabilidade:
+   - Vantagem: Microsserviços permitem escalar partes específicas do aplicativo separadamente. É como adicionar mais motores apenas nas partes do carro que precisam.
+   - Desvantagem: É mais complicado gerenciar muitos serviços diferentes. É como tentar fazer malabarismos com muitas bolas ao mesmo tempo.
+
+2. Disponibilidade:
+   - Vantagem: Se um serviço falhar, não afeta todo o aplicativo. É como se um farol quebrado não impedisse o carro de continuar funcionando.
+   - Desvantagem: Se um serviço essencial falhar, pode afetar o funcionamento de todo o aplicativo. É como se o motor do carro parasse de funcionar.
+
+3. Consistência:
+   - Vantagem: Cada serviço pode gerenciar seus próprios dados, o que facilita manter tudo consistente. É como se cada pessoa cuidasse de suas próprias coisas em vez de compartilhar tudo.
+   - Desvantagem: Garantir que todos os serviços estejam em sincronia pode ser complicado. É como tentar manter todas as pessoas em uma festa dançando na mesma batida.
+
+4. Performance:
+   - Vantagem: Você pode otimizar cada serviço separadamente para um desempenho melhor. É como se cada parte do carro tivesse seu próprio motor ajustado para funcionar melhor.
+   - Desvantagem: Chamadas entre serviços podem tornar o aplicativo mais lento. É como se você tivesse que ligar para várias pessoas em vez de falar com elas pessoalmente.
+
+5. Testabilidade:
+   - Vantagem: É mais fácil testar cada serviço separadamente. É como se você pudesse verificar cada peça de um quebra-cabeça separadamente.
+   - Desvantagem: Testar como os serviços funcionam juntos pode ser mais complicado. É como tentar descobrir como diferentes partes de um brinquedo se encaixam corretamente.
