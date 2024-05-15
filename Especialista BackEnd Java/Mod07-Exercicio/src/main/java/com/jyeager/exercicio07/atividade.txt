@@ -1,0 +1,60 @@
+1. Diferença entre contêineres e microsserviços
+
+Contêineres:
+- Imagine um contêiner como uma caixinha que empacota tudo o que uma aplicação precisa para rodar:
+o código, as bibliotecas e as configurações. Essa caixinha garante que a aplicação vai rodar da mesma
+forma em qualquer lugar, seja no seu computador ou no servidor da empresa.
+
+- Ferramentas como Docker são super usadas para criar essas caixinhas (contêineres).
+
+
+
+Microsserviços:
+- Os microsserviços são um jeito de dividir uma aplicação grande em várias partes menores, cada uma
+fazendo uma coisa específica. Cada parte é um microsserviço.
+
+- Isso facilita a vida, porque cada pedacinho (microsserviço) pode ser desenvolvido, atualizado e
+escalado de forma independente.
+
+
+Extra: É possível subir microsserviços em uma máquina virtual?
+
+Sim, dá para subir microsserviços em uma máquina virtual. Microsserviços são uma forma de organizar
+o código e não dependem de contêineres. Eles podem rodar em máquinas virtuais, servidores físicos,
+ou até mesmo no seu próprio computador, desde que tenham as dependências necessárias para funcionar.
+Mas, usar contêineres pode tornar tudo mais fácil e organizado.
+
+---
+
+2. por que os desenvolvedores precisam fazer merge frequente de suas mudanças de código para que a
+integração contínua funcione adequadamente?
+
+1. Descobrir Problemas Rápido;
+2. Menos Conflitos de Código;
+3. Feedback Rápido;
+
+---
+
+3. por que é necessário ter uma cobertura abrangente de testes para que a prática de entrega contínua
+funcione?
+
+1. Confiar na Qualidade do Código;
+2. Encontrar Problemas Rápido;
+3. Implantação Segura;
+
+---
+
+4. explique as diferenças entre entrega contínua e implantação contínua:
+
+Entrega Contínua (Continuous Delivery):
+- Aqui, o código está sempre pronto para ser implantado, mas a decisão de realmente colocar a nova versão
+no ar é manual. A gente escolhe o melhor momento para isso.
+
+Implantação Contínua (Continuous Deployment):
+- Aqui, todo o processo é automático. Qualquer mudança que passar nos testes vai direto para produção
+sem ninguém precisar apertar botões. Isso significa que novas versões e correções de bugs chegam
+aos usuários super rápido.
+
+na entrega contínua, o código está sempre pronto para ser implantado, mas alguém decide quando isso
+vai acontecer.
+Na implantação contínua, o código é implantado automaticamente assim que está pronto.

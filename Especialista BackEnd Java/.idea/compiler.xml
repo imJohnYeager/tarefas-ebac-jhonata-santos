@@ -10,6 +10,7 @@
         <module name="Mod02-Exercicio" />
         <module name="Mod03-Exercicio" />
         <module name="Mod05-Exercicio" />
+        <module name="Mod07-Exercicio" />
         <module name="Mod01-Exercicio" />
       </profile>
     </annotationProcessing>
