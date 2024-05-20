@@ -1,0 +1,24 @@
+Exercício 01.
+        Base de Código: Cada microsserviço deve ter seu próprio repositório. Isso facilita
+        na hora de fazer atualizações ou correções sem bagunçar outros serviços. Usar Git,
+        por exemplo, ajuda todo mundo a colaborar melhor e manter o histórico das mudanças.
+
+        Dependências: Com tantos serviços diferentes, é normal precisar de várias bibliotecas.
+        Ferramentas como Maven ou Gradle no Java ajudam a geerenciar essas dependências,
+        garantindo que csda serviço tenha o que precisa para rodar sem problemas de compatibilidade.
+
+        Build: É o processo que transforma o código em algo executável. Automatizar isso com
+        pipelines de CI/CD garantw que o código testado seja o mesmo que vai pra produção,
+        diminuindo erros e acelerando o desenvolvimento.
+
+
+Exercício 02.
+        Desenvolver microsserviços stateless é importante porque facilita a
+        escalabilidade e o balanceamento de carga, já que qualquer instância pode atender
+        a qualquer requisição sem depender de dados anteriores
+
+        No CI/CD, microsserviços sem estado permitem atualizações mais seguras e simples,
+        pois não há risco de perder dados críticos durante as implantações.
+
+        Se um serviço tiver estado e precisarmos matar uma instância em produção,
+        isso pode resultar em perda de dados e interrupção do serviço.

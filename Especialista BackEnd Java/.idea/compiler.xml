@@ -8,8 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Mod06-Exercicio" />
         <module name="Mod02-Exercicio" />
-        <module name="Mod03-Exercicio" />
         <module name="Mod05-Exercicio" />
+        <module name="Mod08-Exercicio" />
+        <module name="Mod03-Exercicio" />
         <module name="Mod07-Exercicio" />
         <module name="Mod01-Exercicio" />
       </profile>
