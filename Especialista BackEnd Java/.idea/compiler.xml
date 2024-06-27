@@ -7,13 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mod06-Exercicio" />
+        <module name="Mod10" />
         <module name="Mod02-Exercicio" />
+        <module name="Mod11" />
         <module name="Mod05-Exercicio" />
         <module name="Mod08-Exercicio" />
         <module name="Mod03-Exercicio" />
         <module name="Mod07-Exercicio" />
+        <module name="demo" />
         <module name="Mod01-Exercicio" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Mod11" options="-parameters" />
+      <module name="demo" options="-parameters" />
+    </option>
   </component>
 </project>

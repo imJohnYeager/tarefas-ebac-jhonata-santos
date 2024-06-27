@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -11,10 +10,17 @@
         <option value="$PROJECT_DIR$/Mod06-Exercicio/pom.xml" />
         <option value="$PROJECT_DIR$/Mod07-Exercicio/pom.xml" />
         <option value="$PROJECT_DIR$/Mod08-Exercicio/pom.xml" />
+        <option value="$PROJECT_DIR$/Mod09/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Mod10/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ebac-eventos/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>

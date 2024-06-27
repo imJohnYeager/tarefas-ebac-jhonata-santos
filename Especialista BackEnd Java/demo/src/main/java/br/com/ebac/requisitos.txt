@@ -1,0 +1,19 @@
+funcionais:
+	API que permita o cadastro de animais que foram resgatados por um abrigo;
+	endpoints:
+		- Cadastro de animais;
+		- Listagem de animais no abrigo que ainda não foram adotados, ordenados pela data de entrada dno abrigo;
+		- Listagem de animais no abrigo que já foram adotados;
+
+Não funcionais:
+	linguagem Java;
+	Rodar serviço dentro de um container;
+	Base dados a ser utilizada: H2;
+	Autenticacao e autorizacao não necessarias agora;
+	Larga escala: Não;
+	APIs precisam retornar resultado no formato JSON;
+	Protocolo de comunicacao será HTTP;
+	As APIs precisam ser em formato RESTful;
+
+Domínio:
+	Animais;
