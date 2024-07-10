@@ -1,0 +1,60 @@
+Desmembrar um projeto monolítico e transformar em projetos
+microsserviços. (há 3 projetos pois 1 está escondido).
+
+A aplicação monolítica foi desenvolvida com as seguintes funções principais:
+1. Cadastro de usuários para envio de memes;
+2. Cadastro de categoria de memes;
+3. Cadastro de memes. Necessário que tenham categorias.
+
+Como bônus, o aluno poderá implementar a funcionalidade de "meme do dia" em
+algum dos novos serviços, onde um meme da base é retornado randomicamente.
+Há um serviço adequado para que isso seja feito.
+
+Será parte do projeto final:
+1. Identificar domínios presentes na aplicação e, após isso,
+criar os modelos e bases de dados que possam ser necessários;
+2. Criar os serviços necessários para as operações de cada domínio
+seguindo, até onde der, a cartilha dos 12 fatores que aprendemos no curso.
+Não precisa seguir todos os itens, mas pelo menos os principais.
+3. Melhorar a parte de observabilidade nos serviços novos que você criar.
+Logs, métricas, etc.
+
+Sobre os novos domínios:
+Há pelo menos 2 a serem desmembrados.
+
+Sobre os novos serviços:
+Pelo menos 1 para cada domínio.
+
+Sobre as métricas:
+Todos os Endpoints das APIs deverão ter logs úteis e
+todos os serviços deverão gerar pelo menos métricas de acesso
+aos Endpoints.
+
+Sobre consistência forte ou eventual:
+Fica ao seu critério. Consistência eventual vai dar mais trabalho,
+mas pode ficar mais elegante.
+
+Sobre balanceadores de carga e registro de serviços:
+São opcionais.
+
+Sobre o cadastro de usuários:
+Apenas nome, email e data do cadastro bastam.
+
+Sobre as categorias dos memes:
+Nome, descrição e data do cadastro bastam.
+
+Memes:
+Nome, descrição, URL da imagem/vídeo e data do cadastro são essenciais.
+Usaremos uma URL de algo já existente para simplificar.
+Mas poderíamos usar um serviço de upload.
+
+Prestar atenção às dependências entre os diferentes domínios:
+Um meme não pode ser cadastrado sem categoria ou por um usuário
+inexistente, por exemplo.
+
+Adicionar Trace Distribuido.
+
+Usar padrão de estrangulamento.
+
+Deve haver logs.
+

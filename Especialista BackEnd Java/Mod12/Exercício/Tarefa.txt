@@ -1,0 +1,48 @@
+1. Explicar a diferença entre as consistências forte e eventual.
+Citar exemplo de quando usar cada uma e em quê tipo de sistemas.
+
+R-
+	Consistência forte garante que o dado atualizado será sempre lido primeiro,
+	sendo o mais recente após uma escrita.
+	É normalmente usado em sistemas bancários, uma vez que todas as informações
+	necessitam de leitura imediata após uma atualização.
+	Usado em sistemas de pagamento, pois sua rápida atualização é crucial para um
+	bom funcionamento.
+
+	Consistência eventual é o oposto disso, ele não atualiza de maneira imediata,
+	como a consistência forte. Ao invés disso, ele atualiza com um pouco de delay.
+	Isso pode causar falhas no sistema dependendo de como for usado.
+	Normalmente, é usado em redes sociais, já que não necessariamente precisam ser
+	atualizados de maneira imediata.
+	
+
+
+2. Explicar a diferença entre eventos de dados e eventos de aplicação.
+Quando usar um e outro.
+
+R-
+	Eventos de dados ocorrem quando há mudanças nos dados, como adicionar,
+	atualizar ou deletar registros em um banco de dados. Eles são úteis para
+	monitorar alterações precisas nos dados. Por exemplo, em um sistema de backup, 
+	sempre que um dado é alterado, um evento de dados pode disparar para salvar uma
+	cópia.
+	
+	Eventos de aplicação representam atividades dentro da aplicação, como o início
+	de um processo ou a conclusão de uma tarefa. Eles são usados para monitorar ações
+	gerais na aplicação. Por exemplo, em um sistema de e-commerce, um evento de
+	aplicação pode ser acionado para cada nova compra, ajudando a atualizar o 
+	inventário e notificar o time de vendas.
+
+
+
+
+3. Explicar quais as métricas mais importantes que um microsserviço deve ter e por quê.
+
+R-
+	Latência é o tempo que um serviço leva para responder a uma solicitação.
+	É crucial porque uma alta latência pode deixar os usuários insatisfeitos
+	com a lentidão do sistema.
+
+	A taxa de erros mede quantas solicitações resultam em erros. Uma alta taxa
+	de erros indica problemas no sistema que precisam ser corrigidos para garantir
+	uma boa experiência para os usuários.
