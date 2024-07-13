@@ -9,5 +9,10 @@
         <module name="modulo38" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="modulo38 (1)" target="11" />
+      <module name="modulo38 (2)" target="11" />
+      <module name="Tarefa" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
