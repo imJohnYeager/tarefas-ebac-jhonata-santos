@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Dragon">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/MemeLandia/categoriameme/src/main/java" />
+      <root url="file://$PROJECT_DIR$/MemeLandia/categoriameme/src/test/java" />
+      <root url="file://$PROJECT_DIR$/MemeLandia/meme/src/main/java" />
+      <root url="file://$PROJECT_DIR$/MemeLandia/meme/src/test/java" />
+      <root url="file://$PROJECT_DIR$/MemeLandia/usuario/src/main/java" />
+      <root url="file://$PROJECT_DIR$/MemeLandia/usuario/src/test/java" />
+      <root url="file://$PROJECT_DIR$/backend-java-pro/modulo-15-aula-2/memelandia/src/main/java" />
+      <root url="file://$PROJECT_DIR$/backend-java-pro/modulo-15-aula-2/memelandia/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

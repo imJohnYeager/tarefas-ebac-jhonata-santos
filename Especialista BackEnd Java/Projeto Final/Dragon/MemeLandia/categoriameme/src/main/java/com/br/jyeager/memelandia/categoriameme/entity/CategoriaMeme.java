@@ -1,9 +1,16 @@
 package com.br.jyeager.memelandia.categoriameme.entity;
 
-import com.br.jyeager.memelandia.usuario.entity.Usuario;
-import jakarta.persistence.*;
-
 import java.sql.Date;
+
+import com.br.jyeager.memelandia.usuario.entity.Usuario;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class CategoriaMeme {
